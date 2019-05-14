@@ -83,8 +83,6 @@
     }),
     methods: {
       goToRoute(key, route) {
-        console.log('key', key)
-        console.log('route', route)
         this.splitKeys = key === 'All' ? this.splitKeysArray.filter(e => e !== 'All') : [key];
         this.route = route;
       },
